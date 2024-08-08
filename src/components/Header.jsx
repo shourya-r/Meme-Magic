@@ -1,8 +1,8 @@
 function Header() {
   return (
-    <div>
-      <img src="../../assets/Logo.png" />
-    </div>
+    <nav className="navbar">
+      <img className="logo" src="../../assets/Logo.png" />
+    </nav>
   );
 }
 export { Header };

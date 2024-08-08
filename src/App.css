@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #672280, #a626d3);
+  box-shadow: 2px 0px 5px;
+}
+
+.logo {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
