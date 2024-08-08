@@ -1,5 +1,10 @@
 body {
   margin: 0;
+  font-family: "Karla", sans-serif;
+}
+
+main {
+  padding: 36px;
 }
 
 .navbar {
@@ -11,4 +16,29 @@ body {
   margin-top: 15px;
   margin-left: 15px;
   margin-bottom: 15px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--input {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  font-size: 18px;
+  text-indent: 5px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #672280, #a626d3);
+  color: white;
+  border: none;
+  cursor: pointer;
 }
